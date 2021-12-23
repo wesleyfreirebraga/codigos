@@ -1,0 +1,59 @@
+package testes;
+import java.util.Scanner;
+public class teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ler = new Scanner(System.in);
+int  op;
+System.out.println("qual operação deseja efetuar?");
+System.out.println("1 - soma");
+System.out.println("2 - subtração");
+System.out.println("3 - divisão");
+System.out.println("4 - multiplicação");
+op=ler.nextInt();
+	
+	switch ( op){
+		case 1:
+			System.out.println("insira o primeiro numero");
+			int num1=ler.nextInt();
+			System.out.println("inseira o segundo numero");
+			int num2=ler.nextInt();
+			int resul = num1+num2;
+			System.out.println("o resultado é " +resul);
+			break;
+		case 2 :
+			System.out.println("insira o primeiro numero");
+			int num3=ler.nextInt();
+			System.out.println("inseira o segundo numero");
+			int num4=ler.nextInt();
+			int resulsub = num3-num4;
+			System.out.println("o resultado é " +resulsub);
+			break;
+		case 3 :
+			System.out.println("insira o primeiro numero");
+			int num5=ler.nextInt();
+			System.out.println("inseira o segundo numero");
+			int num6=ler.nextInt();
+			int resuldiv = num5/num6;
+			System.out.println("o resultado é " +resuldiv);
+			break;
+		case 4 :
+			System.out.println("insira o primeiro numero");
+			int num7=ler.nextInt();
+			System.out.println("inseira o segundo numero");
+			int num8=ler.nextInt();
+			int resulmul = num7*num8;
+			System.out.println("o resultado é " +resulmul);
+			break;
+				
+			
+			
+	}
+	
+	
+	
+	}
+
+	
+}
